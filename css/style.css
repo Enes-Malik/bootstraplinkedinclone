@@ -13,21 +13,34 @@ input.searche {
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-image: url(../assets/search-solid.svg);
   background-repeat: no-repeat;
-  background-size: 7%;
+  background-size: 8%;
+  background-position: 0% 50%;
+  padding-left: 23px;
+
+
 }
 
 .body {
   background-color: #f3f2ef;
 }
 
+.icon-center::before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .menutext {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
-  color: gray;
+  color: grey;
   margin-top: 5px;
   font-weight: lighter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menutext:hover {
@@ -127,4 +140,23 @@ button.ref:hover {
   font-weight: bold;
   font-size: 14px;
   margin-left: 8px;
+}
+
+
+button {
+  background-color: transparent;
+  border: 0.5px solid grey;
+}
+
+.mediatext {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f5f5f;
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
